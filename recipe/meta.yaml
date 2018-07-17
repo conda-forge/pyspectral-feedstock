@@ -1,8 +1,8 @@
 {% set name = "pyspectral" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "f08cb66b4c31f01af76b2f33f64c132b0b9eec2b7000288bd4d6aa10ef8e5b49" %}
+{% set hash_value = "4d92380eba87824478c94becb26c3810fb2d954ecadbba167a89586b077193d4" %}
 
 package:
   name: '{{ name|lower }}'
