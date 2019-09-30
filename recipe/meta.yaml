@@ -1,8 +1,8 @@
 {% set name = "pyspectral" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "2e977491203f8e61ae9302c50c5d3984b96848c899c04ca6cf7f4d1b663578e5" %}
+{% set hash_value = "ad81252069a5845afc537cb4e40f2a5a7bfcc59cdc85228179d5aca648181bbe" %}
 
 package:
   name: '{{ name|lower }}'
@@ -15,7 +15,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
