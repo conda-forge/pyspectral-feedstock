@@ -22,8 +22,12 @@ requirements:
     - python
     - pip
     - setuptools
+    - setuptools_scm
+    - setuptools_scm_git_archive
   run:
     - python
+    # needed for pkg_resources with dynamic setuptools_scm
+    - setuptools
     - docutils >=0.3
     - numpy >=1.5.1
     - scipy >=0.14
