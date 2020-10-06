@@ -3,7 +3,7 @@ About pyspectral
 
 Home: https://github.com/pytroll/pyspectral
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Feedstock license: BSD-3-Clause
 
