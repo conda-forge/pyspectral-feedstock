@@ -5,9 +5,13 @@ Home: https://github.com/pytroll/pyspectral
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyspectral-feedstock/blob/master/LICENSE.txt)
 
 Summary: Reading and manipulaing satellite sensor spectral responses and the solar spectrum, to perfom various corrections to VIS and NIR band data
+
+Development: https://github.com/pytroll/pyspectral
+
+Documentation: https://pyspectral.readthedocs.io
 
 pyspectral is a package to read and manipulate satellite sensor spectral responses and solar irradiance spectra
 
