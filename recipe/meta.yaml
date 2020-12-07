@@ -1,5 +1,5 @@
 {% set name = "pyspectral" %}
-{% set version = "0.10.2" %}
+{% set version = "0.10.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 440685790a8d1c85f2b01add90ad2c84288cdede7bd57ecdb27d188a55eef409
+  sha256: 509a7ea031de97a5775663e81ab334d2f5cfe50d55c2158ec70a8a314b38dd96
 
 build:
   number: 0
