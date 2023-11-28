@@ -10,18 +10,18 @@ source:
   sha256: 2ef350cc2dca0b90d8d98b1c1798eaf1130b365e4075640eff631f8ba97a9827
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.10
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >=3.10
     # needed for pkg_resources with dynamic setuptools_scm
     - setuptools
     - docutils >=0.3
