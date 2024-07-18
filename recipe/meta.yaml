@@ -1,5 +1,5 @@
 {% set name = "pyspectral" %}
-{% set version = "0.13.2" %}
+{% set version = "0.13.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ba6ad170d556cef1fab82c5a96e9cd954df43dd10327790e8740ae1cdafdb0ae
+  sha256: 5582cf5d7b6fd242a0bfe56c2a1b3058a8fc42f3ad8d56da0ecd1873c27c4b31
 
 build:
   number: 0
@@ -24,14 +24,12 @@ requirements:
     - python >=3.10
     # needed for pkg_resources with dynamic setuptools_scm
     - setuptools
-    - docutils >=0.3
     - numpy >=1.5.1
     - scipy >=0.14
     - python-geotiepoints >=1.1.1
     - h5py >=2.5
     - requests
     - tqdm
-    - six
     - pyyaml
     - platformdirs
     - dask
