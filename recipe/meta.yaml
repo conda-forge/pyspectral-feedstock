@@ -24,14 +24,12 @@ requirements:
     - python >=3.10
     # needed for pkg_resources with dynamic setuptools_scm
     - setuptools
-    - docutils >=0.3
     - numpy >=1.5.1
     - scipy >=0.14
     - python-geotiepoints >=1.1.1
     - h5py >=2.5
     - requests
     - tqdm
-    - six
     - pyyaml
     - platformdirs
     - dask
