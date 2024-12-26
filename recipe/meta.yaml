@@ -1,3 +1,4 @@
+{% set python_min = '3.10' %}
 {% set name = "pyspectral" %}
 {% set version = "0.13.5" %}
 
@@ -6,22 +7,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 246bfa1c979f9982fcdcb063d9940819cc11a101a5315d7923eb26b7931d6cc5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.10
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.10
+    - python >={{ python_min }}
     # needed for pkg_resources with dynamic setuptools_scm
     - setuptools
     - numpy >=1.5.1
@@ -43,6 +44,7 @@ test:
     - matplotlib-base
     - pyyaml
     - xlrd
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pytroll/pyspectral
