@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyspectral-feed
 
 Home: https://github.com/pytroll/pyspectral
 
-Package license: GPL-3.0-or-later
+Package license: Apache-2.0
 
 Summary: Reading and manipulaing satellite sensor spectral responses and the solar spectrum, to perfom various corrections to VIS and NIR band data
 
