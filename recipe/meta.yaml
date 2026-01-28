@@ -48,7 +48,6 @@ test:
 
 about:
   home: https://github.com/pytroll/pyspectral
-  license: GPL-3.0-or-later
   license: Apache-2.0
   license_file: LICENSE.txt
   summary: Reading and manipulaing satellite sensor spectral responses and the solar spectrum, to perfom various corrections to VIS and NIR band data
