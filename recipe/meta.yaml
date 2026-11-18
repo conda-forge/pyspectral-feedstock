@@ -1,4 +1,4 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.12" %}
 {% set name = "pyspectral" %}
 {% set version = "0.14.4" %}
 
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     # needed for pkg_resources with dynamic setuptools_scm
     - setuptools
-    - numpy >=1.5.1
+    - numpy >=1.21
     - scipy >=1.6.0
     - python-geotiepoints >=1.1.1
     - h5py >=2.5
